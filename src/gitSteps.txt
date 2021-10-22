@@ -1,0 +1,26 @@
+### `Add Folder in github`
+Right click on folder and click on git bush
+ git config --global user.email "ankitssi@in.ibm.com"
+ git config --global user.name "chotu14794"
+ touch .gitignore [to create file]
+ git init
+ git add .
+ git commit -m  "Initial commit"
+git status
+git remote add origin url-path
+git push origin master // this will give error
+   to overcome this issue, go in setting of github 
+    -> SSH & GPG Keys 
+            Key - Saurabh Personal Computer
+            To genrate SSH Key
+            => ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+            copy the key from cat /c/Users/Saurabh Singh/.ssh/id_ed25519.pub, and paste in the Setting section of github
+mow run command git pus
+
+
+if some changes are made in file or new file is added
+
+git add .
+git commit -m "message"
+git push master
